@@ -469,14 +469,14 @@ float: none;
 	color: #AEAEAE;
 	font-size: 16px;
 }
-#aboutUs{
+#aboutMe{
 padding:60px 0;
 	}
-#aboutUs .txtHead {
+#aboutMe .txtHead {
 	background: #fff;
 	padding: 20px 10px;
 }
-#aboutUs .txtHead .fa {
+#aboutMe .txtHead .fa {
 	font-size: 58px;
 	color: #5E5E5E;
 }
@@ -928,17 +928,17 @@ footer {
 #portfolio{
 background: #DBDBDB;
 	}
-#contactUs{
+#contactMe{
 	 background: #3394D5;
 }
-#contactUs p{
+#contactMe p{
 color:#000;
 }
-#contactUs .btn{
+#contactMe .btn{
 background: #fff;
 color: #5887FF;
 }
-#contactUs .btn:hover{
+#contactMe .btn:hover{
 color: #000;
 }
 @media (min-width: 768px) {
