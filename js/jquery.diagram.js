@@ -1,3 +1,50 @@
+/*
+
+jQuery-плагин для построения круговых диаграмм
+
+Вызов:
+
+в html создается разметка
+<div data-percent="15.2%"></div>
+
+здесь указывается data-атрибут data-percent с данными,
+которые затем будут отображены на диаграмме.
+
+$(jQuery Selector).diagram({
+	size: "200",
+	borderWidth: "20",
+	bgFill: "#95a5a6",
+	frFill: "#1abc9c",
+	textSize: 54,
+	textColor: '#2a2a2a'
+});
+
+параметры:
+size - размер диаграммы в px
+borderWidth - толщина обводки
+bgFill - цвет незаполненной части
+frFill - цвет заполненной части
+textSize - размер шрифта для надписи
+textColor - цвет шрифта для надписи
+font - семейство шрифтов (например, "'PT Sans', Arial, sans-serif")
+
+если не передать параметры, то будут установлены параметры по-умолчанию
+var defaults = {
+	size: "100",
+	borderWidth: "10",
+	bgFill: '#bbb',
+	frFill: '#0bf',
+	textSize: 50,
+	font: "serif",
+	textColor: '#000'
+};
+
+
+поддержка браузерами: в IE не работает
+
+*/
+
+
 (function($) {
 
 	$.fn.diagram = function(params){

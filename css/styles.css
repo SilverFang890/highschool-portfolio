@@ -133,7 +133,7 @@ h2 {
 	background: transparent !important;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #5887FF;*/
+/*background-color: #5887FF;*/;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background: #5887FF;
@@ -495,7 +495,7 @@ box-shadow: 12px 0px 0px 12px rgba(13, 113, 165, 0.2), -12px 0px 0px 12px rgba(1
 /*parlex*/
 .bg-parlex {
 	padding-top: 0px;
-	background-image: url('../images/my_banner.jpg');
+	background-image: url('../images/banner-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
