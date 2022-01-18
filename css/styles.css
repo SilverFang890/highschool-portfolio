@@ -130,7 +130,7 @@ h2 {
 }
 .header .navbar {
 	margin: 0;
-	background: transparent !important;
+	background: #00000050 !important;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
 /*background-color: #5887FF;*/
