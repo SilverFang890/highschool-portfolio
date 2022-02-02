@@ -312,7 +312,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	text-fill-color: transparent;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	
+
 	animation: shiftBG 8s ease infinite reverse;
 }
 @keyframes shiftBG {
@@ -362,6 +362,12 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	background:#fb9850;
 	color:#fff;
 	border: 1px solid #fb9850;
+}
+.banner-content .social-icons a:hover {
+	background-clip: initial;
+	text-fill-color: initial;
+	-webkit-background-clip: initial;
+	-webkit-text-fill-color: initial;
 }
 .banner-content header  h1{
 	text-align:center;
