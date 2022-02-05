@@ -612,6 +612,11 @@ min-height:200px;
 	font-size: 14px;
 	color: #000;
 }
+.resumeItem {
+	padding-left: 2.5%;
+	margin-left:2.5%;
+	border-left: 2px solid #fb9850;
+}
 .exp-wrapper {
 	background: #FFF;
 	margin: 10px;
