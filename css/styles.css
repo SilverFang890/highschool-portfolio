@@ -618,7 +618,8 @@ min-height:200px;
 	}
 }
 .resumeCol {
-	padding-left: 18px;
+	padding-left: 4px;
+	margin-left: 5px;
 	background:
 	linear-gradient(to top, #F8F8F8 0%, #fb9850 15%, #fb9850 35%, #F8F8F8 50%, #fb9850 65%, #fb9850 85%, #F8F8F8 100%);
 	background-position: top;
@@ -627,12 +628,13 @@ min-height:200px;
 }
 .whiteSpace {
 	background-color: #F8F8F8;
-	padding: 18px;
+	padding-left: 22.5px;
 }
 .exp-wrapper {
 	background: #FFF;
 	margin: 10px;
 	padding: 30px 20px;
+	height: 175px;
 	-webkit-border-radius: 5px;
 	-webkit-background-clip: padding-box;
 	-moz-border-radius: 5px;
