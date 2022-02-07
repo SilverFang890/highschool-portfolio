@@ -617,13 +617,21 @@ min-height:200px;
 		background-position: bottom;
 	}
 }
-.resumeItem {
+.resumeCol {
 	padding-left: 5px;
 	background:
 	linear-gradient(to top, #F8F8F8 0%, #fb9850 15%, #fb9850 35%, #F8F8F8 50%, #fb9850 65%, #fb9850 85%, #F8F8F8 100%);
 	background-position: top;
 	background-size: 100% 200%;
 	animation: moveGradient 2s linear infinite;
+}
+.resumeItem {
+	/*padding-left: 5px;
+	background:
+	linear-gradient(to top, #F8F8F8 0%, #fb9850 15%, #fb9850 35%, #F8F8F8 50%, #fb9850 65%, #fb9850 85%, #F8F8F8 100%);
+	background-position: top;
+	background-size: 100% 200%;
+	animation: moveGradient 2s linear infinite;*/
 }
 .whiteSpace {
 	background-color: #F8F8F8;
