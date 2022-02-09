@@ -617,6 +617,11 @@ min-height:200px;
 		background-position: bottom;
 	}
 }
+@keyframes moveGradientRight {
+	to {
+		background-position: 200%;
+	}
+}
 .resumeCol {
 	padding-left: 4px;
 	margin-left: 5px;
@@ -654,7 +659,22 @@ min-height:200px;
 	background-color: #fb9850;
 }
 .buttonBorder {
-	
+	height: 50px;
+    width: 150px;
+	padding: 0px;
+    background: linear-gradient(to top right, #597ce5 2.5%, #fb9850 12.5%, #fb9850 35%, #597ce5 45%, #597ce5 55%, #fb9850 65%, #fb9850 87.5%, #597ce5 97.5%);
+    background-position: 0%;
+    background-size: 200%;
+    animation: moveGradientRight 8s linear reverse infinite;
+    border-radius: 5px;
+}
+.downloadButton {
+	height: 42px;
+    width: 142px;
+    margin: 4px;
+    padding: 5px;
+	border-radius: 5px;
+	border: solid #F8F8F8;
 }
 /* Services
     -------------------------------------------------*/
