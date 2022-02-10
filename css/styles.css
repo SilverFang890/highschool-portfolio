@@ -584,6 +584,9 @@ min-height:200px;
 .chart-text h4 {
 	font-size: 23px;
 }
+.researchDownload {
+	margin-left: 25px;
+}
 /*Resume*/
 #resume {
 	background: #F8F8F8;
@@ -655,6 +658,7 @@ min-height:200px;
 }
 .resumeDownload {
 	margin-top: 20px;
+	margin-left:25px;
 }
 @keyframes moveGradientRight {
 	to {
@@ -672,9 +676,9 @@ min-height:200px;
     border-radius: 5px;
 }
 .downloadButton {
-	height: 55px;
-    width: 145px;
-    margin: 2.5px;
+	height: 56px;
+    width: 146px;
+    margin: 2px;
     padding: 5px;
 	border-radius: 5px;
 	border: solid #F8F8F8;
